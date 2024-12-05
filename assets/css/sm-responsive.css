@@ -59,7 +59,9 @@
     align-items: center;
     gap: 24px;
   }
-  .connect-svg1, .connect-svg2, .connect-svg3 {
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
     width: 20px;
     height: 20px;
     padding: 20px;
@@ -148,7 +150,9 @@
     gap: 24px;
     width: 100%;
   }
-  .connect-svg1, .connect-svg2, .connect-svg3 {
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
     width: 20px;
     height: 20px;
     padding: 20px;
@@ -172,7 +176,7 @@
     gap: 24px;
     align-items: center;
   }
-  .contact-form-container{
+  .contact-form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -322,18 +326,20 @@
     border-radius: 50px;
     background: #fff;
   }
-  .svg img{
+  .svg img {
     padding: 4px;
     width: 60px;
     height: 60px;
   }
 
-  .connect-svg1, .connect-svg2, .connect-svg3 {
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
     width: 20px;
     height: 20px;
     padding: 20px;
   }
-  
+
   .benefits-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -474,12 +480,14 @@
     border-radius: 50px;
     background: #fff;
   }
-  .svg img{
+  .svg img {
     padding: 4px;
     width: 56px;
     height: 56px;
   }
-  .connect-svg1, .connect-svg2, .connect-svg3 {
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
     width: 20px;
     height: 20px;
     padding: 20px;
@@ -512,7 +520,7 @@
   .benefits-wrapper {
     display: flex;
     align-items: center;
-    gap: 36px; 
+    gap: 36px;
     /* height: 270px; */
     padding: 60px 40px;
     border-radius: 12px;
@@ -538,13 +546,12 @@
     align-items: center;
     gap: 16px;
   }
-  .contact-form-container{
+  .contact-form-container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
   }
-  
 }
 
 /* large mobile devices */
@@ -672,8 +679,6 @@
     gap: 16px;
     border-radius: 12px;
     background: var(--lightPurple);
-  
-
   }
   .card-wrapper4 {
     height: 350px;
@@ -704,12 +709,14 @@
     border-radius: 50px;
     background: #fff;
   }
-  .svg img{
+  .svg img {
     padding: 4px;
     width: 56px;
     height: 56px;
   }
-  .connect-svg1, .connect-svg2, .connect-svg3 {
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
     width: 20px;
     height: 20px;
     padding: 20px;
@@ -743,7 +750,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px; 
+    gap: 36px;
     height: 470px;
     padding: 60px 40px;
     border-radius: 12px;
@@ -780,7 +787,7 @@
     border-radius: 12px;
     background: #fff;
   }
-  .contact-form-container{
+  .contact-form-container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -820,12 +827,15 @@
     justify-content: center;
     gap: 40px;
   }
-  .cards-wrapper, .cards-wrapper2, .cards-wrapper3, .cards-wrapper4 {
+  .cards-wrapper,
+  .cards-wrapper2,
+  .cards-wrapper3,
+  .cards-wrapper4 {
     height: 250px;
     padding: 20px;
   }
-  .card-wrapper-image img { 
-    width: 100%; 
+  .card-wrapper-image img {
+    width: 100%;
     height: 250px;
   }
   .works-text {
@@ -887,7 +897,7 @@
     justify-content: center;
     gap: 24px;
   }
-  .truncate{
+  .truncate {
     overflow: hidden;
   }
   .styled-table th,
@@ -931,16 +941,16 @@
   .card-text h4 {
     font-size: 18px;
   }
-  nav{
+  nav {
     display: none;
   }
-  .contact-form-container{
+  .contact-form-container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
   }
-  
+
   .cards-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -972,21 +982,21 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .card-wrapper3:hover {
-     border: 1px solid #00668d;
-     transform: translateY(-10px);
+    border: 1px solid #00668d;
+    transform: translateY(-10px);
   }
   .card-wrapper4:hover {
-     border: 1px solid #00668d;
-     transform: translateY(-10px);
+    border: 1px solid #00668d;
+    transform: translateY(-10px);
   }
-  .card-wrapper-image{
+  .card-wrapper-image {
     transition: transform 0.5s ease;
   }
-  
-  .card-wrapper-image:hover{
+
+  .card-wrapper-image:hover {
     transform: scale(1.05);
   }
-  
+
   .card-wrapper4 {
     height: 250px;
     padding: 24px;
@@ -1002,13 +1012,13 @@
     padding: 24px;
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     gap: 16px;
     border-radius: 12px;
     background: var(--lightPurple);
   }
-  
+
   .process-card-wrapper2 {
     height: 300px;
     padding: 24px;
@@ -1019,21 +1029,25 @@
     border-radius: 12px;
     background: var(--lightRed);
   }
-  
+
   .sell-cards-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 24px;
     padding: 40px 0;
   }
-  .connect-card-text{
+  .connect-card-text {
     gap: 5px;
   }
-  .connect-card1, .connect-card2, .connect-card3{
+  .connect-card1,
+  .connect-card2,
+  .connect-card3 {
     height: 140px;
-    overflow: hidden; 
-  } 
-  .connect-svg1, .connect-svg2, .connect-svg3 {
+    overflow: hidden;
+  }
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
     width: 20px;
     height: 20px;
     padding: 20px;
@@ -1068,7 +1082,7 @@
     border-radius: 50px;
     background: #fff;
   }
-  .svg img{
+  .svg img {
     padding: 4px;
     width: 48px;
     height: 48px;
@@ -1087,9 +1101,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px; 
+    gap: 36px;
     height: 100%;
-    padding:20px 20px;
+    padding: 20px 20px;
     border-radius: 12px;
     background: #fff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1113,23 +1127,21 @@
     align-items: center;
     gap: 16px;
   }
-  .works-text{
+  .works-text {
     margin-bottom: -50px;
   }
-  .benefits{
-   padding: 0 10px;
+  .benefits {
+    padding: 0 10px;
   }
-  .location-image{
-    width: 100%;  
+  .location-image {
+    width: 100%;
     height: 400px;
-   
   }
-  .location-image iframe{
+  .location-image iframe {
     width: 100%;
     height: 400px;
     border-radius: 16px;
   }
- 
 }
 
 /* extra small devices */

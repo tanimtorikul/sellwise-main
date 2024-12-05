@@ -666,6 +666,9 @@
   .after-renovation, h3{
     font-size: 14px;
   }
+  .icon-header {
+    justify-content: center;
+  }
 
   /* highlights styles */
   .highlights-cards {

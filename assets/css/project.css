@@ -448,7 +448,7 @@
     padding: 24px 0px;
   }
 
-  .overview-heading {
+  .overview-card-heading {
     padding: 40px;
   }
 
@@ -513,6 +513,7 @@
   .hero-content p {
     font-size: 14px;
     margin-bottom: 16px;
+    padding-inline: 16px;
   }
 
   /* overview container styles */
@@ -534,7 +535,7 @@
     padding: 24px 0px;
   }
 
-  .overview-heading {
+  .overview-card-heading {
     padding: 40px;
   }
   .before-renovation,
@@ -627,6 +628,7 @@
   .hero-content p {
     font-size: 14px;
     margin-bottom: 16px;
+    padding-inline: 16px;
   }
 
   .quotes-btn {
@@ -636,6 +638,9 @@
   /* overview container styles */
   .overview-container {
     padding: 0px 16px;
+  }
+  .overview-heading {
+    padding-block: 30px;
   }
 
   .overview-heading h1 {
@@ -652,8 +657,8 @@
     padding: 24px 0px;
   }
 
-  .overview-heading {
-    padding: 40px;
+  .overview-card-heading {
+    padding: 20px;
   }
 
   .overview-cards .overview-img img {

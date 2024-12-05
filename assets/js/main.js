@@ -39,7 +39,7 @@ document.querySelectorAll(".accordion-collapse").forEach(function (collapse) {
     if (button) {
       let icon = button.querySelector(".plus-icon");
       if (icon) {
-        icon.src = "./assets/images/icons/minus-icon.svg";
+        icon.src = "./assets/images/icons/minusicon.svg";
       }
     }
   });
@@ -50,7 +50,7 @@ document.querySelectorAll(".accordion-collapse").forEach(function (collapse) {
     if (button) {
       const icon = button.querySelector(".plus-icon");
       if (icon) {
-        icon.src = "./assets/images/icons/plus-icon.svg";
+        icon.src = "./assets/images/icons/plusicon.svg";
       }
     }
   });

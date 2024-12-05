@@ -132,6 +132,8 @@ footer {
   
   .footer-company-text {
     max-width: 495px;
+    text-align: left;
+    margin-top: 24px;
   }
   
   .footer-input {

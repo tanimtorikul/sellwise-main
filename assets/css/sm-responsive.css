@@ -59,6 +59,11 @@
     align-items: center;
     gap: 24px;
   }
+  .connect-svg1, .connect-svg2, .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -103,7 +108,7 @@
   }
   .works-card-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
   .cardHeadline {
@@ -142,6 +147,11 @@
     flex-direction: column;
     gap: 24px;
     width: 100%;
+  }
+  .connect-svg1, .connect-svg2, .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
   }
   .benefits-container {
     display: grid;
@@ -303,6 +313,27 @@
     gap: 24px;
     width: 100%;
   }
+  .svg {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 18px;
+    align-items: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img{
+    padding: 4px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .connect-svg1, .connect-svg2, .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+  
   .benefits-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -432,6 +463,26 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     padding: 40px 0;
+  }
+  .svg {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img{
+    padding: 4px;
+    width: 56px;
+    height: 56px;
+  }
+  .connect-svg1, .connect-svg2, .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
   }
   .sm-finance-cards-container {
     display: flex;
@@ -642,6 +693,26 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 24px;
     padding: 40px 0;
+  }
+  .svg {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img{
+    padding: 4px;
+    width: 56px;
+    height: 56px;
+  }
+  .connect-svg1, .connect-svg2, .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
   }
   .sm-finance-cards-container {
     display: flex;
@@ -962,15 +1033,10 @@
     height: 140px;
     overflow: hidden; 
   } 
-  .connect-svg1 {
-    width: 80px;
-    height: 48px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 43.636px;
-    border: 1.818px solid var(--Primary, #00668d);
+  .connect-svg1, .connect-svg2, .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
   }
   .sm-finance-cards-container {
     display: flex;
@@ -991,6 +1057,21 @@
     flex-direction: column;
     gap: 24px;
     width: 100%;
+  }
+  .svg {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img{
+    padding: 4px;
+    width: 48px;
+    height: 48px;
   }
   .finance-image img {
     width: 100%;

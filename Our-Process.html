@@ -51,49 +51,48 @@
   </head>
 
   <body>
+    <!-- Navbar starts -->
+    <nav class="container">
+      <!-- Left: Logo -->
+      <div class="logo">
+        <p>Sellwise</p>
+      </div>
+
+      <!-- Right: Navigation Links -->
+      <ul class="nav-links hideOnMobile">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./How-it-work.html">How It Works</a></li>
+        <li><a href="./Our-service.html">Our Services</a></li>
+        <li><a href="./Our-Process.html">Our Process</a></li>
+        <li><a href="./Financing.html">Financing</a></li>
+        <li><a href="./project.html">Our Projects</a></li>
+        <li><a href="./Broker.html">For Brokers</a></li>
+        <li><a href="./Contact-us.html">Contact Us</a></li>
+      </ul>
+      <!-- Right: Buttons -->
+      <div class="nav-buttons">
+        <a class="signin-btn" href="#">Sign in</a>
+        <a class="signup-btn" href="#">Client Login</a>
+      </div>
+      <!-- Right: Hamburger Menu -->
+      <div class="hamburger menu-button" onclick="showSidebar()">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="28"
+            viewBox="0 96 960 960"
+            width="28"
+          >
+            <path
+              d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </nav>
     <!-- header area starts -->
 
     <header>
-      <!-- Navbar starts -->
-      <nav class="container">
-        <!-- Left: Logo -->
-        <div class="logo">
-          <p>Sellwise</p>
-        </div>
-
-        <!-- Right: Navigation Links -->
-        <ul class="nav-links hideOnMobile">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./How-it-work.html">How It Works</a></li>
-          <li><a href="./Our-service.html">Our Services</a></li>
-          <li><a href="./Our-Process.html">Our Process</a></li>
-          <li><a href="./Financing.html">Financing</a></li>
-          <li><a href="./project.html">Our Projects</a></li>
-          <li><a href="./Broker.html">For Brokers</a></li>
-          <li><a href="./Contact-us.html">Contact Us</a></li>
-        </ul>
-        <!-- Right: Buttons -->
-        <div class="nav-buttons">
-          <a class="signin-btn" href="#">Sign in</a>
-          <a class="signup-btn" href="#">Client Login</a>
-        </div>
-        <!-- Right: Hamburger Menu -->
-        <div class="hamburger menu-button" onclick="showSidebar()">
-          <a href="#">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="28"
-              viewBox="0 96 960 960"
-              width="28"
-            >
-              <path
-                d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
-              />
-            </svg>
-          </a>
-        </div>
-      </nav>
-
       <!-- Sidebar starts -->
       <ul class="sidebar" id="sidebar">
         <li onclick="hideSidebar()">
@@ -129,7 +128,11 @@
       <section>
         <div>
           <div class="banner-image">
-            <div class="banner-text-wrapper text-center" data-aos="zoom-out" data-aos-duration="800">
+            <div
+              class="banner-text-wrapper text-center"
+              data-aos="zoom-out"
+              data-aos-duration="800"
+            >
               <h1 class="fw-700 banner-headline">
                 Our Process Simple, Transparent, and Tailored to You
               </h1>
@@ -149,8 +152,9 @@
       <!-- Home Detail section starts -->
       <section class="custom-container2">
         <div class="text-center">
-          <h1 class="fw-700"  data-aos="fade-right"
-          data-aos-duration="800">Detailed In-Home Inspection</h1>
+          <h1 class="fw-700" data-aos="fade-right" data-aos-duration="800">
+            Detailed In-Home Inspection
+          </h1>
         </div>
         <div class="cards-container">
           <div
@@ -206,12 +210,20 @@
       <section class="benefits-gradient-section">
         <section class="custom-container3">
           <div class="text-center">
-            <h1 class="fw-700 mb_80 cardHeader" data-aos="zoom-in-right" data-aos-duration="800">
+            <h1
+              class="fw-700 mb_80 cardHeader"
+              data-aos="zoom-in-right"
+              data-aos-duration="800"
+            >
               Custom-Tailored Renovation and Sale Plan
             </h1>
           </div>
           <div class="sm-finance-cards-container">
-            <div class="finance-image"  data-aos="zoom-in-right" data-aos-duration="800">
+            <div
+              class="finance-image"
+              data-aos="zoom-in-right"
+              data-aos-duration="800"
+            >
               <img
                 src="./assets/images/cards/ProcessPageCards/decorateHouse.png"
                 alt=""
@@ -268,13 +280,15 @@
       <!-- Project Manager section starts -->
 
       <section class="custom-container2">
-        <div class="text-center"  data-aos="fade-down"
-        data-aos-duration="800">
+        <div class="text-center" data-aos="fade-down" data-aos-duration="800">
           <h1 class="fw-700">Assigned Project Manager</h1>
         </div>
         <div class="cards-container">
-          <div class="process-card-wrapper" data-aos="fade-right"
-          data-aos-duration="800">
+          <div
+            class="process-card-wrapper"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <h5 class="fw-700 text-left">Your Dedicated Project Manager</h5>
             <p class="sm-screen-p">
               Once you’ve agreed to the plan, we’ll assign a project manager who
@@ -283,23 +297,32 @@
               there to ensure everything runs smoothly.
             </p>
           </div>
-          <div class="card-wrapper-image"  data-aos="fade-left"
-          data-aos-duration="800">
+          <div
+            class="card-wrapper-image"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <img
               src="./assets/images/cards/ProcessPageCards/bussiness.png"
               alt=""
             />
           </div>
 
-          <div class="card-wrapper-image"  data-aos="fade-right"
-          data-aos-duration="800">
+          <div
+            class="card-wrapper-image"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <img
               src="./assets/images/cards/ProcessPageCards/home2.png"
               alt=""
             />
           </div>
-          <div class="process-card-wrapper2"  data-aos="fade-left"
-          data-aos-duration="800">
+          <div
+            class="process-card-wrapper2"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <h5 class="fw-700">A Clean and Respectful Renovation Process</h5>
             <p class="sm-screen-p">
               We know you’re living in your home, so we prioritize clean,
@@ -315,13 +338,15 @@
       <!--  -->
       <section class="benefits-gradient-section">
         <div class="custom-container3">
-          <div class="text-center"   data-aos="fade-down"
-          data-aos-duration="800">
+          <div class="text-center" data-aos="fade-down" data-aos-duration="800">
             <h1 class="fw-700 cardHeadline">Expert Realtor Takes Over</h1>
           </div>
           <div class="sell-cards-container">
-            <div class="cards-wrapper"  data-aos="fade-up"
-            data-aos-duration="800">
+            <div
+              class="cards-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               <h4 class="fw-600 text-textHeading">Empowering Homeowners</h4>
               <p class="text-textBody sm-screen-p truncate">
                 We founded Sellwise after seeing too many homeowners settle for
@@ -333,8 +358,11 @@
                 property.
               </p>
             </div>
-            <div class="cards-wrapper2" data-aos="fade-up"
-            data-aos-duration="800">
+            <div
+              class="cards-wrapper2"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               <h4 class="fw-600 text-textHeading">Empowering Homeowners</h4>
               <p class="text-textBody sm-screen-p">
                 Our model is designed with your success in mind. By investing in
@@ -343,8 +371,11 @@
                 succeed.
               </p>
             </div>
-            <div class="cards-wrapper4" data-aos="fade-up"
-            data-aos-duration="800">
+            <div
+              class="cards-wrapper4"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               <h4 class="fw-600 text-textHeading">Closing Statement</h4>
               <p class="text-textBody sm-screen-p">
                 With Sellwise, your home is in expert hands. Our proven process,
@@ -366,11 +397,9 @@
       <div class="footer-section-wrapper custom-container">
         <div class="logo-section-container">
           <div>
-            <img
-              class="footer-logo mb_24"
-              src="./assets/images/logo/Sellwise.png"
-              alt="footer logo"
-            />
+            <div class="footer-logo">
+              <p class="text-start">Sellwise</p>
+            </div>
             <p class="footer-company-text">
               Sellwise is a renovation service dedicated to enhancing your
               home's value with a seamless and hassle-free process. Unlike
@@ -471,7 +500,7 @@
         <div>
           <div>
             <h5>Page</h5>
-
+  
             <ul class="mt_16 footer-link">
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
@@ -483,7 +512,7 @@
         <div>
           <div>
             <h5>Service</h5>
-
+  
             <ul class="mt_16 footer-link">
               <li><a href="#">Book Session</a></li>
               <li><a href="#">Pricing</a></li>
@@ -495,7 +524,7 @@
         <div>
           <div>
             <h5>Newsletter Signup</h5>
-            <p class="mt_16">
+            <p class="mt_16 text-start">
               Get the inside scoop on new <br />
               frames, events, and more
             </p>
@@ -521,7 +550,7 @@
                 fill="#187586"
               />
             </svg>
-
+  
             <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
           </div>
           <div class="footer-info-icon mt_16">
@@ -544,7 +573,7 @@
                 </clippath>
               </defs>
             </svg>
-
+  
             <p>
               (406) 555-0120 <br />
               (406) 555-0120

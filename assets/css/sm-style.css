@@ -1020,7 +1020,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 43.636px;
+  border-radius: 50%;
   border: 1.818px solid var(--Primary, #00668d);
 }
 

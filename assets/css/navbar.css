@@ -5,6 +5,9 @@ nav {
   justify-content: space-between;
   padding-block: 16px;
   position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo p {
@@ -15,10 +18,19 @@ nav {
   letter-spacing: -0.96px;
 }
 
+.nav-links-container {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  flex-wrap: nowrap;
+  padding-bottom: 8px;
+}
+
 .nav-links {
   display: flex;
   gap: 32px;
 }
+
 .nav-links a {
   color: var(--Text-Heading, #1e1e1e);
   font-family: Roboto;
@@ -26,9 +38,16 @@ nav {
   line-height: 164%;
   text-transform: capitalize;
 }
+
 .nav-links a:hover {
   color: var(--primary--color);
 }
+.nav-links a.active {
+  color: #ffb222; /* Active link color */
+  font-weight: bold; /* Optional: Make the active link bold */
+  text-decoration: underline; /* Optional: Add underline to active link */
+}
+
 
 .nav-buttons {
   display: flex;
@@ -75,6 +94,23 @@ nav {
   padding: 16px;
   transition: right 0.3s ease;
   z-index: 20;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Custom Scrollbar */
+.sidebar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #3d3a34;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
 }
 
 .sidebar.show {
@@ -125,14 +161,21 @@ nav {
     font-size: 24px;
   }
 }
+
 @media only screen and (max-width: 1199px) {
+  .nav-links-container {
+    display: block;
+  }
+
   .nav-links,
   .nav-buttons {
     display: none;
   }
+
   .menu-button {
     display: block;
   }
+
   .logo p {
     font-size: 32px;
   }

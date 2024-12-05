@@ -45,7 +45,7 @@
     margin: 20px 160px;
   }
   .custom-container-footer p{
-    margin: 30px 0;
+    margin:  0;
   }
   .footer-link li a {
     color: #fff;
@@ -70,6 +70,15 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 40px;
+  }
+  .footer-logo{
+    color: var(--60-background-white, #FFF);
+    font-family: "Russo One";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.96px;
   }
   
   .footer-link {
@@ -198,13 +207,17 @@ footer {
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-section-wrapper {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 150px;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px;
     }
     footer {
       background-color: var(--Foundation-Blue-Primary-Darker);
       padding: 40px 0 5px 0;
       color: #fff;
+    }
+    .footer-logo{
+      font-size: 32px;
+      margin-bottom: 12px;
     }
     .custom-container-footer {
       margin: 20px 80px;
@@ -215,13 +228,17 @@ footer {
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .footer-section-wrapper {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       gap: 50px;
     }
     footer {
       background-color: var(--Foundation-Blue-Primary-Darker);
       padding: 30px 0 5px 0;
       color: #fff;
+    }
+    .footer-logo{
+      font-size: 24px;
+      margin-bottom: 12px;
     }
     .custom-container-footer {
       margin: 20px 50px;
@@ -240,6 +257,10 @@ footer {
       padding: 20px 0 5px 0;
       color: #fff;
     }
+    .footer-logo{
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
     .custom-container-footer {
       margin: 20px 20px;
     }
@@ -257,10 +278,20 @@ footer {
       padding: 20px 0 5px 0;
       color: #fff;
     }
+    .footer-logo{
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
     .custom-container-footer {
       margin: 20px 20px;
     }
-   
+    .footer-company-text {
+      font-size: 14px;
+      margin-top: 0px;
+    }
+    .footer-link li a {
+      font-size: 14px;
+    }
   }
   
   /* extra small devices */

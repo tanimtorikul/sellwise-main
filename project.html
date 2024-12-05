@@ -49,48 +49,47 @@
   </head>
 
   <body>
+    <!-- Navbar starts -->
+    <nav class="container">
+      <!-- Left: Logo -->
+      <div class="logo">
+        <p>Sellwise</p>
+      </div>
+
+      <!-- Right: Navigation Links -->
+      <ul class="nav-links hideOnMobile">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./How-it-work.html">How It Works</a></li>
+        <li><a href="./Our-service.html">Our Services</a></li>
+        <li><a href="./Our-Process.html">Our Process</a></li>
+        <li><a href="./Financing.html">Financing</a></li>
+        <li><a href="./project.html">Our Projects</a></li>
+        <li><a href="./Broker.html">For Brokers</a></li>
+        <li><a href="./Contact-us.html">Contact Us</a></li>
+      </ul>
+      <!-- Right: Buttons -->
+      <div class="nav-buttons">
+        <a class="signin-btn" href="#">Sign in</a>
+        <a class="signup-btn" href="#">Client Login</a>
+      </div>
+      <!-- Right: Hamburger Menu -->
+      <div class="hamburger menu-button" onclick="showSidebar()">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="28"
+            viewBox="0 96 960 960"
+            width="28"
+          >
+            <path
+              d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </nav>
     <!-- Header area starts -->
     <header>
-      <!-- Navbar starts -->
-      <nav class="container">
-        <!-- Left: Logo -->
-        <div class="logo">
-          <p>Sellwise</p>
-        </div>
-
-        <!-- Right: Navigation Links -->
-        <ul class="nav-links hideOnMobile">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./How-it-work.html">How It Works</a></li>
-          <li><a href="./Our-service.html">Our Services</a></li>
-          <li><a href="./Our-Process.html">Our Process</a></li>
-          <li><a href="./Financing.html">Financing</a></li>
-          <li><a href="./project.html">Our Projects</a></li>
-          <li><a href="./Broker.html">For Brokers</a></li>
-          <li><a href="./Contact-us.html">Contact Us</a></li>
-        </ul>
-        <!-- Right: Buttons -->
-        <div class="nav-buttons">
-          <a class="signin-btn" href="#">Sign in</a>
-          <a class="signup-btn" href="#">Client Login</a>
-        </div>
-        <!-- Right: Hamburger Menu -->
-        <div class="hamburger menu-button" onclick="showSidebar()">
-          <a href="#">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="28"
-              viewBox="0 96 960 960"
-              width="28"
-            >
-              <path
-                d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
-              />
-            </svg>
-          </a>
-        </div>
-      </nav>
-
       <!-- Sidebar starts -->
       <ul class="sidebar" id="sidebar">
         <li onclick="hideSidebar()">
@@ -165,7 +164,7 @@
                   src="./assets/images/location-icon.png"
                   alt="Location Icon"
                 />
-                <span  class="address">Dhaka, Bangladesh</span>
+                <span class="address">Dhaka, Bangladesh</span>
               </div>
               <span class="outcome">Outcome Increased value by 20%.</span>
               <h1>Rustic Retreat Cottage</h1>
@@ -177,8 +176,7 @@
             </div>
           </div>
 
-          <div class="overview-img"  data-aos="fade-up"
-          data-aos-duration="800">
+          <div class="overview-img" data-aos="fade-up" data-aos-duration="800">
             <img
               src="./assets/images/renovation-img.jpg"
               alt="Renovation Image"
@@ -195,8 +193,7 @@
         <!-- Highlights section starts -->
         <div class="highlights-cards">
           <!-- scope -->
-          <div class="scope"  data-aos="fade-right"
-          data-aos-duration="800">
+          <div class="scope" data-aos="fade-right" data-aos-duration="800">
             <div class="icon-header">
               <img src="./assets/images/scope-icon.png" alt="" />
               <h2>Scope</h2>
@@ -208,8 +205,7 @@
           </div>
 
           <!-- challenges -->
-          <div class="challenges" data-aos="fade-up"
-          data-aos-duration="800">
+          <div class="challenges" data-aos="fade-up" data-aos-duration="800">
             <div class="icon-header">
               <img src="./assets/images/challenge-icon.png" alt="" />
               <h2>Challenges</h2>
@@ -220,8 +216,7 @@
             </p>
           </div>
           <!-- outcome -->
-          <div class="outcome" data-aos="fade-left"
-          data-aos-duration="800">
+          <div class="outcome" data-aos="fade-left" data-aos-duration="800">
             <div class="icon-header">
               <img src="./assets/images/outcome-icon.png" alt="" />
               <h2>Outcome</h2>
@@ -297,14 +292,12 @@
 
     <!-- footer area starts -->
     <footer>
-      <div class="footer-section-wrapper custom-container">
+      <div class="footer-section-wrapper custom-container-footer">
         <div class="logo-section-container">
           <div>
-            <img
-              class="footer-logo mb_24"
-              src="./assets/images/logo/Sellwise.png"
-              alt="footer logo"
-            />
+            <div class="footer-logo">
+              <p>Sellwise</p>
+            </div>
             <p class="footer-company-text">
               Sellwise is a renovation service dedicated to enhancing your
               home's value with a seamless and hassle-free process. Unlike
